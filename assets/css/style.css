@@ -1,3 +1,16 @@
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+.oswald-osbold {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <50>;
+    font-style: normal;
+  }
+  
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -12,6 +25,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 
